@@ -1,0 +1,13 @@
+# SCOUT path configuration. Relative paths are resolved against the repo root.
+# CLI --flag overrides win.
+
+lfw_root: /home/leon/facemint-dfd/data/lfw
+glint360k_root: /home/leon/glint360k/unpacked
+ids_and_fns: /home/leon/facemint-dfd/data/glint360k/ids_and_fns.npy
+templates_root: /home/leon/facemint-dfd/data/glint360k
+
+sae_runs_root: batchtopk/runs
+dfd_runs_root: deep_face_decoder/runs
+
+arc2face_pretrained: arc2face/pretrained
+vggface_weights: deep_face_decoder/pretrained/vggface_vgg16_features.pth

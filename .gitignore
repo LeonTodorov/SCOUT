@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+*.swp
+
+# IDE / project metadata
+.claude/
+.vscode/
+.idea/
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+.conda-env/
+
+# Pretrained weights (fetch via README -> Dropbox)
+feature_extractors/*/pretrained/
+deep_face_decoder/pretrained/
+arc2face/pretrained/*
+!arc2face/pretrained/.gitkeep
+scout_arc2face_assets.zip
+downloads/
+*.part
+
+# Large generated/downloaded data artifacts
+data/
+eval_results/
+smoke/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.npy
+*.npz
+
+# Generated runs
+deep_face_decoder/runs/
+sae_analysis/runs/
+batchtopk/runs/
+lightning_logs/
+wandb/
+tb/
+*.log
+
+# Glint360K splits are generated locally by deep_face_decoder/utils/make_splits.py.
+deep_face_decoder/splits/
+
+# Paper
+SCOUT_paper/
+
+# Machine-local path overrides
+paths_local.yaml

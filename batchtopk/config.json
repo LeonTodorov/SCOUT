@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "name": "adaface_ms1mv2_ires50",
+      "label": "AdaFace iResNet-50",
+      "weights": "batchtopk/runs/adaface_ms1mv2_ires50_k32/weights.pt",
+      "fr_templates": "data/glint360k/adaface_ms1mv2_ires50/templates.pth"
+    },
+    {
+      "name": "adaface_webface4m_vitb",
+      "label": "AdaFace ViT-B",
+      "weights": "batchtopk/runs/adaface_webface4m_vitb_k32/weights.pt",
+      "fr_templates": "data/glint360k/adaface_webface4m_vitb/templates.pth"
+    },
+    {
+      "name": "arcface_webface42m_res100",
+      "label": "ArcFace WebFace42M ResNet-100",
+      "weights": "batchtopk/runs/arcface_webface42m_res100_k32/weights.pt",
+      "fr_templates": "data/glint360k/arcface_webface42m_res100/templates.pth"
+    },
+    {
+      "name": "swinface_ms1mv2_swint",
+      "label": "SwinFace Swin-T",
+      "weights": "batchtopk/runs/swinface_ms1mv2_swint_k32/weights.pt",
+      "fr_templates": "data/glint360k/swinface_ms1mv2_swint/templates.pth"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[ 
+  {
+    "hat": [
+      "a photo of a person wearing a hat on their head",
+      "an image of someone with a cap or hat covering their head",
+      "a picture of a person with headwear such as a beanie or fedora"
+    ],
+    "no hat": [
+      "a photo of a person without any hat or headwear",
+      "an image of someone with a bare uncovered head",
+      "a picture of a person not wearing anything on their head"
+    ]
+  }
+] 

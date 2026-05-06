@@ -1,0 +1,23 @@
+# adaface_ms1mv2_ires50 training configuration
+
+train_list: splits/train.txt
+val_list: splits/val.txt
+run_id: adaface_ms1mv2_ires50
+
+encoder_id: adaface_ms1mv2_ires50
+device: cuda:0
+output_size: 112
+
+batch_size: 16
+lr: 0.001
+epochs: 10
+val_every: 10000
+val_batches: 256
+log_every: 100
+
+loss_weights: [1.0, 1.0, 1.0]
+early_stop_patience: 10
+
+amp: false
+seed: 42
+num_workers: 4

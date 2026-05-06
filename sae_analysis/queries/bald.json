@@ -1,0 +1,14 @@
+[
+  {
+    "bald": [
+      "bald person",
+      "hairless head",
+      "visible scalp"
+    ],
+    "not bald": [
+      "thick hair",
+      "voluminous hair",
+      "hair parting"
+    ]
+  }
+]
